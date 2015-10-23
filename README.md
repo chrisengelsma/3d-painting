@@ -1,4 +1,4 @@
-A 3D Image-Guided Paintbrush [![Build Status](https://travis-ci.org/chrisengelsma/3d-painting.svg?branch=master)](https://travis-ci.org/chrisengelsma/3d-painting)
+A 3D Interactive Image-Guided Paintbrush [![Build Status](https://travis-ci.org/chrisengelsma/3d-painting.svg?branch=master)](https://travis-ci.org/chrisengelsma/3d-painting)
 ----------------------------
  ![CWP Logo](img/cwplogo.png) ![Mines Logo](img/mines.gif)
  
