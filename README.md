@@ -1,7 +1,7 @@
-A 3D Image-Guided Paintbrush
+A 3D Image-Guided Paintbrush [![Build Status](https://travis-ci.org/chrisengelsma/3d-painting.svg?branch=master)](https://travis-ci.org/chrisengelsma/3d-painting)
+----------------------------
 
-Getting the source code
------------------------
+##Getting the source code
 
 To build this from source, you must first use git to check the repository
 out from GitHub (http://www.github.com/chrisengelsma/3d-painting)
@@ -9,8 +9,7 @@ out from GitHub (http://www.github.com/chrisengelsma/3d-painting)
 bin/ - platform-dependent scripts (for running demo)
 src/ - source code files (e.g., main/java/edu/mines/engelsma/paint/Painting3.java)
 
-Tools for building
-------------------
+##Tools for building
 
 To build CAE, you need these freely available tools:
 * Java SE JDK 8.0 (or later):
@@ -18,13 +17,11 @@ To build CAE, you need these freely available tools:
 * Gradle 2.6
   http://gradle.org
 
-Building 3D Painting
---------------------
+##Building 3D Painting
 
 Navigate to the top directory and run `gradlew build`.
 
-Using The Paintbrush
---------------------
+##Using The Paintbrush
 
 After you have built, you should have a JAR file 
 [...]/build/libs/3d-painting.jar.
@@ -66,8 +63,7 @@ set CLASSPATH=^
 By adding the 3d-painting.jar to the classpath this allows you to call 
 classes that are included in this lib. 
 
-Demos
------
+##Demos
 
 Demos are located in ```bin/``` and are platform-dependent scripts. 
 Parameters in these scripts must be changed to match your system in order to 
@@ -78,6 +74,5 @@ Tensor Guided Painting
 * bin/paintdemo.csh <-- csh script (Unix/Mac)
 * bin/paintdemo.bat <-- batch file (Windows)
 
-References
-----------
+##References
 The code in this repo is the result of my MS reserach at the Colorado School of Mines.
