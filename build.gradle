@@ -1,0 +1,48 @@
+apply plugin: 'java'
+
+defaultTasks 'jar'
+
+description = '3D Image-Guided Paintbrush'
+
+// tag::wrapper[]
+task wrapper(type: Wrapper) {
+  gradleVersion = '2.6'
+}
+// end::wrapper[]
+
+// tag::repositories[]
+repositories {
+  mavenCentral()
+}
+// end::repositories[]
+
+// tag::sourceSets[]
+sourceSets {
+  main {
+    output.resourcesDir = output.classesDir
+  }
+  demo {
+    output.resourcesDir = output.classesDir
+    compileClasspath += sourceSets.main.runtimeClasspath
+  }
+}
+// end::sourceSets[]
+
+// tag::jar[]
+jar {
+  baseName '3d-painting'
+  duplicatesStrategy = 'exclude'
+  manifest {
+    attributes 'Implementation-Title': project.description
+  }
+  from sourceSets.demo.output
+}
+// end::jar[]
+
+// tag::dependencies[]
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+dependencies {
+  compile fileTree('libs')
+}
+// end::dependencies[]
