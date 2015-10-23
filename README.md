@@ -1,6 +1,7 @@
 A 3D Image-Guided Paintbrush [![Build Status](https://travis-ci.org/chrisengelsma/3d-painting.svg?branch=master)](https://travis-ci.org/chrisengelsma/3d-painting)
 ----------------------------
-
+ ![CWP Logo](img/cwplogo.png) ![Mines Logo](img/mines.gif)
+ 
 Seismic interpretation is an important step when developing a model of the subsurface. In past decades, this process involved interpreting 2D seismic sections on paper with colored pencils. Over time, seismic surveys evolved to three dimensions and computational power allowed for processing on workstations. Interpreters then found it easier to interpret seismic horizons, or theboundaries between geologic layers, rather than geologic formations themselves. Unfortunately, horizons are tedious to assemble and may contain holes where the image is poor. It may be more efficient and useful to interpret volumes directly through 3D painting.
 
 3D painting attempts to expedite the interpretation process by painting volumes with a digital 3D paintbrush. Multiple seismic slices are interpreted simultaneously as features within the image control the paintbrush's shape and orientation. This paintbrush is operated by a human interpreter who controls its location and maximum size. In this way, geologic formations are interpreted by painting voxels (3D pixels) within the seismic image.
@@ -78,5 +79,9 @@ Tensor Guided Painting
 * bin/paintdemo.csh <-- csh script (Unix/Mac)
 * bin/paintdemo.bat <-- batch file (Windows)
 
+###Example Images
+![Painting Salt](img/screenshots/PaintedSaltBody.png)![Painting Anti cline](img/screenshots/PaintedAntiCline.png)
+
 ###References
 The code in this repo is the result of my MS reserach at the Colorado School of Mines.
+[Click here for the full thesis](www.cwp.mines.edu/Documents/cwpreports/cwp-677.pdf)
