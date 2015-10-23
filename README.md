@@ -17,13 +17,6 @@ To build CAE, you need these freely available tools:
   http://www.oracle.com/technetwork/java/javase/downloads
 * Gradle 2.6
   http://gradle.org
-* Mines Java Toolkit (JTK)
-  http://www.github.com/dhale/jtk
-    Managed by Dave Hale and others at the Colorado School of Mines.
-    CAE strongly relies on packages contained within this toolkit.
-    It may be checked out and built via SVN. For further instructions on how 
-    to build and run the applications contained within the JTK please refer to
-    http://boole.mines.edu/jtk/trunk/readme.txt
 
 Building 3D Painting
 --------------------
@@ -37,12 +30,10 @@ After you have built, you should have a JAR file
 [...]/build/libs/3d-painting.jar.
 You may include this JAR file as a classpath when running Java.
 
-To use the paintbrush, we must launch a Java virtual machine, specifying all 
-of these JAR files and the locations of our JNI libraries. Provided in 
-cae/trunk/bin are scripts (e.g. paintdemo.sh) that illustrate how we do this 
+To use the paintbrush, we must launch a Java virtual machine. Provided in 
+bin/ are scripts (e.g. paintdemo.sh) that illustrate how we do this 
 for different platforms. 
-Similarly, provided with the Mines JTK in jtk/trunk/bin are similar
-scripts. To enable CAE, we must add cae.jar to the classpath. This can be
+To enable painting, we must add 3d-painting.jar to the classpath. This can be
 done using a scripting language such as sh or csh as follows:
 
 Using bash, sh or ksh (Unix/Mac):
