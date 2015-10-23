@@ -48,17 +48,17 @@ done using a scripting language such as sh or csh as follows:
 Using bash, sh or ksh (Unix/Mac):
 
 ```bash
-export PAINT_HOME=/directories/to/cae/trunk
+export PAINT_HOME=/directories/to/painting/dir
 export CLASSPATH=\
-$PAINT_HOME/build/jar/cae.jar:\
+$PAINT_HOME/build/libs/3d-painting.jar:\
 .
 ```
 
 Using csh or tcsh (Unix/Mac):
 
 ```csh
-setenv PAINT_HOME /directories/to/cae/trunk
-setenv CLASSPATH ${PAINT_HOME}/build/jar/cae.jar:
+setenv PAINT_HOME /directories/to/painting/dir
+setenv CLASSPATH ${PAINT_HOME}/build/libs/3d-painting.jar:
 # more jars here
 setenv CLASSPATH ${CLASSPATH}:.
 ```
@@ -66,9 +66,9 @@ setenv CLASSPATH ${CLASSPATH}:.
 Using a batch file (Windows):
 
 ```bat
-set PAINT_HOME=C:\path\to\cae\trunk
+set PAINT_HOME=C:\path\to\painting\dir
 set CLASSPATH=^
-%PAINT_HOME%\build\jar\cae.jar;^
+%PAINT_HOME%\build\libs\3d-painting.jar;^
 .
 ```
 
@@ -86,5 +86,7 @@ Tensor Guided Painting
 * bin/paintdemo.sh  <-- sh script  (Unix/Mac)
 * bin/paintdemo.csh <-- csh script (Unix/Mac)
 * bin/paintdemo.bat <-- batch file (Windows)
-* Demos the tensor guided painting as outlined in my MS thesis (Interpretation
-  of 3D seismic images using an interactive image-guided paintbrush).
+
+References
+----------
+The code in this repo is the result of my MS reserach at the Colorado School of Mines.
