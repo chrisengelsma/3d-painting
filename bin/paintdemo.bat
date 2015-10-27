@@ -18,7 +18,6 @@ set CLASSPATH=^
 %PAINT_HOME%\libs\edu_mines_jtk.jar;^
 %PAINT_HOME%\libs\gluegen-rt.jar;^
 %PAINT_HOME%\libs\jogl-all.jar;^
-%PAINT_HOME%\libs\junit.jar;^
 .
 
 rem Run a server VM with assertions enabled and a 1GB max Java heap.
