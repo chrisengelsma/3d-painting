@@ -17,7 +17,7 @@ set CLASSPATH=^
 %PAINT_HOME%\build\libs\3d-painting.jar;^
 %PAINT_HOME%\libs\edu_mines_jtk.jar;^
 %PAINT_HOME%\libs\gluegen-rt.jar;^
-%PAINT_HOME%\libs\jogl.jar;^
+%PAINT_HOME%\libs\jogl-all.jar;^
 %PAINT_HOME%\libs\junit.jar;^
 .
 
