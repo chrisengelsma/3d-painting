@@ -11,8 +11,7 @@ setenv PAINT_HOME ${HOME}/Home/box/git/3d-painting
 setenv CLASSPATH ${PAINT_HOME}/build/libs/3d-painting.jar:
 setenv CLASSPATH ${CLASSPATH}:${PAINT_HOME}/libs/edu_mines_jtk.jar:
 setenv CLASSPATH ${CLASSPATH}:${PAINT_HOME}/libs/gluegen-rt.jar:
-setenv CLASSPATH ${CLASSPATH}:${PAINT_HOME}/libs/jogl.jar:
-setenv CLASSPATH ${CLASSPATH}:${PAINT_HOME}/libs/junit.jar:
+setenv CLASSPATH ${CLASSPATH}:${PAINT_HOME}/libs/jogl-all.jar:
 setenv CLASSPATH ${CLASSPATH}:.
 
 # Run a server 64-bit VM with assertions enabled and a 1GB max Java heap.
