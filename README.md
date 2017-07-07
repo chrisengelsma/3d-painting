@@ -83,5 +83,5 @@ Tensor Guided Painting
 ![Painting Salt](img/screenshots/PaintedSaltBody.png)![Painting Anti cline](img/screenshots/PaintedAntiCline.png)
 
 ### References
-The code in this repo is the result of my MS reserach at the Colorado School of Mines.
+The code in this repo is the result of my MS research at the Colorado School of Mines.
 [Click here for the full thesis](http://www.cwp.mines.edu/Documents/cwpreports/cwp-677.pdf)
